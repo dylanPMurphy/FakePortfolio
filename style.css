@@ -1,36 +1,67 @@
 #container h1{
     display: inline;
     font-family: 'Courier New', Courier, monospace;
-    color:blue;
+    
 }
 #container h3{
     display:inline;
     margin-left: 40%;
     text-align: right;
-    color : green;
+    
 }
 #content {
-    background-color: plum;
-    padding:10px;
+    background: rgb(90,69,79);
+    background: radial-gradient(circle, rgba(90,69,79,1) 2%, rgba(38,21,26,1) 69%);
+    padding:20px;
 
 }
 
 
-#content img{
+#profpic{
     width:40%;
     border: 5px solid lightgrey;
+    margin:15px;
+    vertical-align: top;
 }
 #about {
-    margin-left: 10px;
-    width: 50%;
+    background-color: whitesmoke;
+    margin: 15px;
+    width: 52.5%;
     display: inline-block;
+    vertical-align: top;
+}
+#container a img{
+    max-width: 15px;
+    max-height: 15px;
+    display: inline-block;
+}
+#container p{
+    text-align: center;
+    
+}
+.graybar{
+    background: rgb(138,136,149);
+    background: linear-gradient(180deg, rgba(138,136,149,1) 2%, rgba(119,119,119,1) 36%, rgba(138,136,149,1) 73%); 
+    color: white;
+    margin:0px;
+    padding:5px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .row-two {
     display: inline-block;
     width: 30%;
-    background-color: lightblue;
+    margin: 15px;
+    vertical-align: top;
+    background-color: whitesmoke;
 }
 .row-two img {
     width: 100%;
+    
+}
+.tech{
+
+    display: inline-block;
+    max-width: 50px;
+    max-width: 50px;
 }
