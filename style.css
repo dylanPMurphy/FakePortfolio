@@ -1,0 +1,36 @@
+#container h1{
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    color:blue;
+}
+#container h3{
+    display:inline;
+    margin-left: 40%;
+    text-align: right;
+    color : green;
+}
+#content {
+    background-color: plum;
+    padding:10px;
+
+}
+
+
+#content img{
+    width:40%;
+    border: 5px solid lightgrey;
+}
+#about {
+    margin-left: 10px;
+    width: 50%;
+    display: inline-block;
+}
+
+.row-two {
+    display: inline-block;
+    width: 30%;
+    background-color: lightblue;
+}
+.row-two img {
+    width: 100%;
+}
