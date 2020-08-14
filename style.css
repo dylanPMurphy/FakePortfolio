@@ -1,3 +1,7 @@
+#container{
+    width:970px;
+    align-self: center;
+}
 #container h1{
     display: inline;
     font-family: 'Courier New', Courier, monospace;
@@ -26,7 +30,7 @@
 #about {
     background-color: whitesmoke;
     margin: 15px;
-    width: 52.5%;
+    width: 450px;
     display: inline-block;
     vertical-align: top;
 }
@@ -50,7 +54,7 @@
 
 .row-two {
     display: inline-block;
-    width: 30%;
+    width: 270px;
     margin: 15px;
     vertical-align: top;
     background-color: whitesmoke;
