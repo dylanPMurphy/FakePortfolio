@@ -22,27 +22,27 @@
 
 
 #profpic{
-    width:40%;
+    width:382px;
+    height:255px;
     border: 5px solid lightgrey;
-    margin:15px;
+    margin:10px;
     vertical-align: top;
 }
 #about {
-    background-color: whitesmoke;
-    margin: 15px;
+    background-color: #efe8ee;
+    margin: 10px;
     width: 450px;
+    height: 255px;
     display: inline-block;
     vertical-align: top;
 }
-#container a img{
-    max-width: 15px;
-    max-height: 15px;
-    display: inline-block;
+#about p, a{
+    padding:10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    margin:0px;
 }
-#container p{
-    text-align: center;
-    
-}
+
 .graybar{
     background: rgb(138,136,149);
     background: linear-gradient(180deg, rgba(138,136,149,1) 2%, rgba(119,119,119,1) 36%, rgba(138,136,149,1) 73%); 
@@ -55,17 +55,37 @@
 .row-two {
     display: inline-block;
     width: 270px;
-    margin: 15px;
+    margin: 10px;
     vertical-align: top;
-    background-color: whitesmoke;
+    background-color: #efe8ee;
+    align-self: center;
+    
 }
 .row-two img {
     width: 100%;
-    
+
 }
 .tech{
-
+    align-items: center;
     display: inline-block;
-    max-width: 50px;
-    max-width: 50px;
+    max-width: 35px;
+    max-width: 35px;
+    padding:5px;
+}
+.row-two button{
+    display: block;
+    text-align: center;
+    background-color: #407d61;
+    color: white;
+    border-radius: 6px;
+}
+#container a{
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+}
+#container a img{
+    max-width: 15px;
+    max-height: 15px;
+    display: inline-block;
 }
